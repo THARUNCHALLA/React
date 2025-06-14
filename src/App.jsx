@@ -1,10 +1,10 @@
 import Testing from "./Testing";
 import "./App.css"
-import Data from "./ReduxToolKit/data"
+import Animation from "./components/framer/framer"
 const App = () => {
   return (
     <>
-    <Data/>
+    <Animation/>
     </>
   );
 };
