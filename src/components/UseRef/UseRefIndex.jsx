@@ -28,7 +28,10 @@ const UseRefIndex = () => {
 export default UseRefIndex;
 
 
+// What happens when you click Start?
+// If intervalRef.current is null (meaning no timer is running), it creates a new timer and saves its ID.
 
+// If intervalRef.current is NOT null (timer already running), it skips creating a new one.
 
 // import { useRef, useState, useEffect } from "react";
 
